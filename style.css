@@ -1,0 +1,96 @@
+#topo_contatos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #252B42;
+    color: #fff;
+    
+    font-weight: 600;
+
+    height: 58px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contato{
+    display: flex;
+}
+
+.telefone{
+    padding-right: 15px;
+}
+
+.redes-sociais{
+    display: flex;
+}
+
+.texto-seguir{
+    padding-right: 15px;
+}
+
+.redes i {
+    padding-right: 5px;
+}
+
+.slide-text{
+    height: 400px;
+    padding: 140px 150px;
+    background-image: url(./Carrossel.jpg);
+}
+
+#catalogo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+.imagens-catalogo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.produto1{
+    background-image: url(image2.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.produto2{
+    background-image: url(image2.png);
+    width: 200px;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.produto2 button{
+    position: absolute;
+}
+
+.produtos-vertical{
+    width: 300px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.prod1{
+    background-image: url(image3.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.prod2{
+    background-image: url(image4.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

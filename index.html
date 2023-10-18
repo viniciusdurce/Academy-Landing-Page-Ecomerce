@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce</title>
+
+  <!--CSS do Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!--CSS Interno-->
+  <link rel="stylesheet" href="style.css">
+
+  <!--JS do Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <!--CSS dos Icones-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <section id="topo_contatos">
+    <div class="contato">
+
+      <div class="telefone">
+        <i class="bi bi-telephone"></i>
+        <span>(11) 00000-0000</span>
+      </div>
+
+      <div class="email">
+        <i class="bi bi-envelope"></i>
+        <span>jean.lopes@grupomfx.com</span>
+      </div>
+    </div>
+
+    <div class="desconto">
+      <span>Follow Us and get a chance to win 80% off</span>
+    </div>
+
+    <div class="redes-sociais">
+
+      <div class="texto-seguir">
+        <span>Follow Us:</span>
+      </div>
+
+      <div class="redes">
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+      </div>
+    </div>
+  </section>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bandage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Masculino</a></li>
+                <li><a class="dropdown-item" href="#">Feminino</a></li>
+                <li><a class="dropdown-item" href="#">Infantil</a></li>
+                <li><a class="dropdown-item" href="#">Todes</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+
+          </ul>
+
+          <div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="bi bi-person"></i> Login/Register
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="bi bi-search"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="bi bi-cart"></i>1
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="bi bi-heart"></i>1
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="banner">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="slide-text">
+            <p>teste</p>
+            <h2>new collection</h2>
+            <p>teste</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slide-text">
+            <p>teste</p>
+            <h2>new collection</h2>
+            <p>teste</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slide-text">
+            <p>teste</p>
+            <h2>new collection</h2>
+            <p>teste</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="catalogo">
+    <h2>Editor's pick</h2>
+    <p>Problems trying to resolve the conflict between </p>
+
+    <div class="imagens-catalogo">
+      <div class="produto1">
+      </div>
+      <div class="produto2">
+        <button>teste</button>
+      </div>
+      <div class="produtos-vertical">
+        <div class="prod1"></div>
+        <div class="prod2"></div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
